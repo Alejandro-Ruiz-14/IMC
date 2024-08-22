@@ -1,0 +1,39 @@
+/*Colocamos un fondo de color al h1 y le ponemos color también al titulo, aparte de redondear ños extremos*/
+h1{
+    color: rgb(131, 84, 240);
+    background-color: rgb(73, 70, 70);
+    border-radius: 20%;
+}
+
+/*Tamaños del h1 en móvil*/
+@media (max-width:550px) {h1{font-size: 14px;}}
+
+/*Alinear el titulo al centro*/
+div.titulo{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+form{
+    display: block;
+    font-size: 25px;
+    justify-content: center;
+}
+
+input{
+    display: block;
+    margin: 5px 5px 15px 5px;
+    border-style:dotted;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.foto{
+    justify-content: center;
+    text-align: center;
+}
+img{
+    width: 550px;
+    height: auto;
+}
